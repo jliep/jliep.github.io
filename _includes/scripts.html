@@ -1,4 +1,17 @@
 <script src="{{ base_path }}/assets/js/main.min.js"></script>
 
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+      document.querySelectorAll('a').forEach(function(link) {
+        // Check if the link is an external link or a direct link to a file
+        if (link.hostname !== window.location.hostname || /\.(pdf|docx|pptx|xls|zip)$/i.test(link.pathname)) {
+          link.target = "_blank";
+          // Optional: add rel="noopener noreferrer" for security reasons
+          link.rel = "noopener noreferrer";
+        }
+      });
+    });
+    </script>
+
 {% include analytics.html %}
 {% include /comments-providers/scripts.html %}
