@@ -14,5 +14,5 @@ type: "article"
 abstract: 'To demonstrate their commitment, for instance during wartime, members of a group will sometimes all engage in the same ruinous display. Such uniform, high-cost signals are hard to reconcile with standard models of signaling. For signals to be stable, they should honestly inform their audience; yet, uniform signals are trivially uninformative. To explain this phenomenon, we design a simple model, which we call the signal runaway game. In this game, senders can express outrage at non-senders. Outrage functions as a second-order signal. By expressing outrage at non-senders, senders draw attention to their own signal, and benefit from its increased visibility. Using our model and a simulation, we show that outrage can stabilize uniform signals, and can lead signal costs to run away. Second-order signaling may explain why groups sometimes demand displays of commitment from all their members, and why these displays can entail extreme costs.'
 author: 'Lie-Panis, J., & Dessalles, J. L.'
 year: 2023
-#keywords: ["signaling", "outrage"]
+keywords: ["outrage", "extreme and uninformative signals"]
 ---
