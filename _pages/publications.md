@@ -15,7 +15,7 @@ author_profile: true
 {% include base_path %}
 
 {% for post in site.publications reversed %}
-  {% if post.type == "journal" %}
+  {% if post.type == "article" %}
     {% include archive-single.html %}
   {% endif %}
 {% endfor %}
@@ -29,9 +29,21 @@ author_profile: true
 {% endfor %}
 --->
 
-<h1 style="margin-top: 100px;">Other</h1>
+<h1 style="margin-top: 50px;">Other</h1>
 {% for post in site.publications reversed %}
   {% if post.type == "other" %}
     {% include archive-single.html %}
   {% endif %}
 {% endfor %}
+
+<script>
+  function toggleAbstract(postId) {
+    var abstract = document.getElementById('abstract-' + postId);
+    if (abstract.style.display === 'none' || abstract.style.display === '') {
+      abstract.style.display = 'block';
+    } else {
+      abstract.style.display = 'none';
+    }
+  }
+</script>
+

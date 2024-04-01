@@ -1,9 +1,13 @@
 ---
-title: "PhD Dissertation"
+supertitle: "PhD Dissertation"
 collection: publications
 permalink: /publication/2023-dissertation
 date: 2023-10-02
 paperurl: '/files/PhD Dissertation.pdf'
 type: "other"
-citation: 'Lie-Panis, J. (2023). Models of reputation-based cooperation. Bridging the gap between reciprocity and signaling. <i>Université Paris Cité</i>.'
+author: 'Lie-Panis, J.'
+title: 'Models of reputation-based cooperation. Bridging the gap between reciprocity and signaling'
+journal: 'Université Paris Cité'
+year: 2023
+#citation: 'Lie-Panis, J. (2023). Models of reputation-based cooperation. Bridging the gap between reciprocity and signaling. <i>Université Paris Cité</i>.'
 ---
