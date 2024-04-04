@@ -1,5 +1,5 @@
 ---
-title: 'Cooperation as a Signal of Time Preferences'
+title: 'Cooperation as a signal of time preferences'
 collection: publications
 permalink: /publication/2022-timepreferences
 date: 2022-04-27
