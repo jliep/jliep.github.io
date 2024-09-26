@@ -14,5 +14,5 @@ title: 'The social leverage effect: Institutions transform weak reputation effec
 keywords: ["institutions", "large-scale cooperation", "reputation"]
 si: '/files/SI for Social Leverage Effect.pdf'
 type: "article"
-code: '/files/Institutions.nb'
+code: '/files/Social Leverage Effect.nb'
 ---
