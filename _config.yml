@@ -64,7 +64,7 @@ author:
   steam            : # Username
   telegram         : # URL
   tumblr           : # Username
-  twitter          : "@JulienLiePanis"  # Replace this with your X / Twitter handle
+  #twitter          : "@JulienLiePanis"  # Replace this with your X / Twitter handle
   vine             : # Username
   weibo            : # Username
   wikipedia        : # Username
@@ -119,8 +119,8 @@ yandex_site_verification :
 
 
 # Social Sharing
-twitter:
-  username               : &twitter
+#twitter:
+ # username               : &twitter
 facebook:
   username               :
   app_id                 :
