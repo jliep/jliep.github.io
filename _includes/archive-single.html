@@ -18,10 +18,10 @@
 
         {{ post.author }}
 
-        {% if post.year %}
+        {% if post.year and post.type != 'preprint' %}
           ({{ post.year }}).
         {% endif %}
-
+      
         <span style="font-weight: 600;">
           {{ post.title }}.
         </span>

@@ -2,7 +2,7 @@
 title: 'Why human societies adopt rigid moral rules: The efficiency–robustness trade-off'
 collection: publications
 permalink: /publication/rigid-moral-rules
-date: 2025-11-23
+date: 2026-10-02
 journal: 'Under review'
 paperurl: '/files/rigid_rules_MS.pdf'
 link: 'https://osf.io/preprints/psyarxiv/65gbj_v1'
