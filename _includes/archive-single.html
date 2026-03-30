@@ -47,7 +47,8 @@
         {% if post.si %}
           <a href="{{ post.si }}" target="_blank"><i class="fas fa-plus-square" aria-hidden="true"></i></a>
         {% endif %}
-
+        
+        {%- comment -%}
         {% if post.keywords %}
           <span class="keywords">Keywords: 
             {% for keyword in post.keywords %}
@@ -55,6 +56,8 @@
             {% endfor %}
           </span>
         {% endif %}
+        {%- endcomment -%}
+
 
       {% if post.abstract %}
           <span onclick="toggleAbstract('{{ post.id }}')" class="abstract-link">
