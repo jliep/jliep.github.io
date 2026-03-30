@@ -8,6 +8,12 @@ author_profile: true
 # #<sup>*</sup> Equal authorship
 ---
 
+<style>
+  .page__title { display: none; }
+</style>
+
+<h1 style="margin-top: 0px;">In progress</h1>
+
 {% if author.googlescholar %}
   You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
 {% endif %}
