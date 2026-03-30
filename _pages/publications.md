@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "In progress"
+title: "Publications"
 permalink: /publications/
 author_profile: true
 
