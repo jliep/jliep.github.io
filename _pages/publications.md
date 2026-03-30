@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Journal articles"
+title: "In progress"
 permalink: /publications/
 author_profile: true
 
@@ -15,14 +15,21 @@ author_profile: true
 {% include base_path %}
 
 {% for post in site.publications reversed %}
+  {% if post.type == "preprint" %}
+    {% include archive-single.html %}
+  {% endif %}
+{% endfor %}
+
+<h1 style="margin-top: 50px;">Journal articles</h1>
+{% for post in site.publications reversed %}
   {% if post.type == "article" %}
     {% include archive-single.html %}
   {% endif %}
 {% endfor %}
 
-<h1 style="margin-top: 50px;">In progress</h1>
+<h1 style="margin-top: 50px;">Public outreach</h1>
 {% for post in site.publications reversed %}
-  {% if post.type == "preprint" %}
+  {% if post.type == "outreach" %}
     {% include archive-single.html %}
   {% endif %}
 {% endfor %}
@@ -44,3 +51,4 @@ author_profile: true
     }
   }
 </script>
+
