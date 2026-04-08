@@ -7,9 +7,9 @@ redirect_from:
   - /about.html
 ---
 
-Hi! I'm Julien. I study the diversity of human social organization — why societies differ in their norms, institutions, and the scope of trust and moral obligation. I use mathematical models to identify the adaptive trade-offs that shape different forms of social organization, and computational models to study how people reason about norms and cooperation.
+Hi! I'm Julien. <!--I study the diversity of human social organization — why societies differ in their norms, institutions, and the scope of trust and moral obligation. I use mathematical models to identify the adaptive trade-offs that shape different forms of social organization, and computational models to study how people reason about norms and cooperation.-->
 <!--. I study large-scale cooperation and the psychology that underpins it—how human minds shape the rules, norms, and institutions that allow cooperation to extend beyond small groups.-->
-
+I study the diversity of human social organization: why societies differ in their norms, institutions, and the scope of trust and moral obligation. My work argues that time horizons — how much the future matters — are a key part of the answer.
 
 I am currently based in Boston, collaborating with researchers in [Josh Tenenbaum's group](https://cocosci.mit.edu) at MIT and [Fiery Cushman's group](https://cushmanlab.fas.harvard.edu/) at Harvard, and working remotely with [Pat Barclay](http://patbarclay.com/) at the University of Guelph. Previously, I was a postdoc with Christian Hilbe (Max Planck Institute for Evolutionary Biology). I did my PhD with Jean-Baptiste André (ENS-PSL) and Jean-Louis Dessalles (Telecom Paris).
 <!--I am originally trained in Mathematics, and have studied (in that order) Economics, International Relations, Social Sciences, and Cognitive Sciences.
