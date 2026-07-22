@@ -12,23 +12,19 @@ author_profile: true
   .page__title { display: none; }
 </style>
 
-<h1 style="margin-top: 0px;">In progress</h1>
-
-{% if author.googlescholar %}
-  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
-{% endif %}
-
 {% include base_path %}
 
-{% for post in site.publications reversed %}
-  {% if post.type == "preprint" %}
-    {% include archive-single.html %}
-  {% endif %}
-{% endfor %}
 
 <h1 style="margin-top: 50px;">Journal articles</h1>
 {% for post in site.publications reversed %}
   {% if post.type == "article" %}
+    {% include archive-single.html %}
+  {% endif %}
+{% endfor %}
+
+<h1 style="margin-top: 0px;">Preprints</h1>
+{% for post in site.publications reversed %}
+  {% if post.type == "preprint" %}
     {% include archive-single.html %}
   {% endif %}
 {% endfor %}
