@@ -15,14 +15,14 @@ author_profile: true
 {% include base_path %}
 
 
-<h1 style="margin-top: 50px;">Journal articles</h1>
+<h1 style="margin-top: 0px;">Journal articles</h1>
 {% for post in site.publications reversed %}
   {% if post.type == "article" %}
     {% include archive-single.html %}
   {% endif %}
 {% endfor %}
 
-<h1 style="margin-top: 0px;">Preprints</h1>
+<h1 style="margin-top: 50px;">Preprints</h1>
 {% for post in site.publications reversed %}
   {% if post.type == "preprint" %}
     {% include archive-single.html %}

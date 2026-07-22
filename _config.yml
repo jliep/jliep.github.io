@@ -24,9 +24,10 @@ author:
   avatar           : "profile.png"
   name             : "Julien Lie-Panis"
   pronouns         : # example: "she/her"  
-  bio              : "Game theory, psychology, social sciences"
-  location         : "Boston, MA"
-  employer         : "MIT"
+  bio              : #"Game theory, psychology, social sciences"
+                    # Cooperation, institutions, eovlution
+  location         : "Paris, France"
+  employer         : #"MIT"
   uri              : # URL
   email            : "jliep@pm.me" 
 
